@@ -1,0 +1,21 @@
+# Local configuration and credentials
+local.properties
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.pem
+# Generated files
+.gradle/
+.kotlin/
+**/build/
+*.apk
+*.aab
+*.idsig
+*.log
+.DS_Store
+.idea/
+*.iml
+captures/
